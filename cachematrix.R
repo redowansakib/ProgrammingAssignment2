@@ -24,7 +24,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This Function takes a matrix and returns its inverse
+## This Function takes a specialized list object returned from "makeCacheMatrix" 
+## function and returns its inverse
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
